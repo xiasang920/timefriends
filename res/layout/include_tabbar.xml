@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    android:id="@+id/rg_tab"
+    android:layout_alignParentBottom="true"
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/bg_titlebar"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/rb_time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:text="时间" />
+
+     <RadioButton 
+         android:id="@+id/rb_foundation"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:text="发现"
+        />
+      <RadioButton 
+          android:id="@+id/rb_user"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:text="我"
+        />
+
+</RadioGroup>
